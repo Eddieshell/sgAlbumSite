@@ -16,3 +16,19 @@ img {
 #tableHeadliner {
     background-color: grey;
 }
+
+.embedFont {
+    font-family: 'Pangolin', cursive;
+}
+
+.albumCover {
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/5/5f/Van_Halen_-_1984.jpg");
+    margin:0px auto;
+    display: block;
+    width:300px;
+    height: 300px;
+}
+
+li {
+    font-style: italic;
+}
