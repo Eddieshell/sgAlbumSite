@@ -1,0 +1,18 @@
+table, td, th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+img {
+    margin:0px auto;
+    display: block;
+}
+
+#tableSet {
+    margin: auto;
+    width: 100%;
+}
+
+#tableHeadliner {
+    background-color: grey;
+}

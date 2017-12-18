@@ -2,19 +2,18 @@
 <html>
     <head>
         <title>Album Site - Van Halen</title>
+        <link rel="stylesheet" type="text/css" href="albumStyles.css">
     </head>
+    
     <style>
         .centered_txt {
             text-align: center;
         }
 
-        table, td, th {
-            border: 1px solid black;
-            text-align: center;
-        }
+        
     </style>
     <body>
-        <img style = "margin:0px auto;display:block" src = "https://upload.wikimedia.org/wikipedia/en/5/5f/Van_Halen_-_1984.jpg" alt = "Album Cover 1984">
+        <img src = "https://upload.wikimedia.org/wikipedia/en/5/5f/Van_Halen_-_1984.jpg" alt = "Album Cover 1984">
         <div class = "centered_txt">
             <h1>1984</h2>
             <h2><a href = "http://www.van-halen.com" target="blank">Van Halen</a></h3>
@@ -30,13 +29,12 @@
             <li>Ted Templeman - production</li>
         </ol>
         <h2 class="centered_txt">Tracks</h4>
-        <table style = "margin: auto; width: 100%">
-            <!--<caption>Tracks</caption>-->
+        <table id = "tableSet">
             <thead>
                 <tr>
-                    <th style = "background-color: grey">Track #</th>
-                    <th style = "background-color: grey">Track Title</th>
-                    <th style = "background-color: grey">Track Length</th>
+                    <th id = "tableHeadliner">Track #</th>
+                    <th id = "tableHeadliner">Track Title</th>
+                    <th id = "tableHeadliner">Track Length</th>
             </thead>
             <tbody>                
                 <tr>
